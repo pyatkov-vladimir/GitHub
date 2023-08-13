@@ -87,7 +87,7 @@ git push`
 ### 18. Синхронизировать внешний и локальный репозиторий XML
 `git pull`
 
-## TXT
+## [TXT](https://github.com/pyatkov-vladimir/TXT/tree/main)
 ### 1. Создать внешний репозиторий c названием TXT.
 1. [Repositories -> Add]
 2. Ввести название репозитория
