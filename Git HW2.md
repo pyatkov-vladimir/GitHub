@@ -25,26 +25,26 @@
 `git commit -m "Структура баг репорта"`
 `git push`
 
-8. Вмержить ветку Bug Reports в Main
+5. Вмержить ветку Bug Reports в Main
 
 `git checkout main`
 `git merge Bug_Reports`
 
-10. Запушить main на внешний репозиторий
+6. Запушить main на внешний репозиторий
 
 `git push`
 
-12. В ветке CheckLists набросать структуру чек листа
+7. В ветке CheckLists набросать структуру чек листа
 
 `git checkout CheckLists`
 `cat > CheckList.txt`
 
-14. Запушить структуру на внешний репозиторий
+8. Запушить структуру на внешний репозиторий
 
 `git add CheckList.txt`
 `git commit -m "Структура чеклиста"`
 
-16. На внешнем репозитории сделать Pull Request ветки CheckLists в main.
-17. Синхронизировать Внешнюю и Локальную ветки Main -
-18. `git pull`
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main.
+10. Синхронизировать Внешнюю и Локальную ветки Main
+`git pull`
 `git push`
